@@ -1,0 +1,158 @@
+/***** BASE STYLES ******/
+
+#portfolio {
+	height: 1250px;
+}
+#contact {
+	height: 350px;
+}
+
+/***** GRID *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	background-color: #ffcc66;
+}
+
+.full-width {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.half-width {
+    width: 700px;
+    float: left;
+}
+
+.third-width {
+	width: 466px;
+	float: left;
+}
+
+.port {
+	overflow: auto;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 100px;
+}
+
+header p, nav {
+	font-size: 40px;
+	padding-top: 6px;
+}
+
+nav ul li a { 
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/***** Introduction *****/
+
+#intro {
+	height: 700px;
+	background: url('../img/letsrock.png');
+	background-color: #ffffff;
+	background-size: cover;
+}
+
+#intro h1 {
+	font-family: 'Audiowide', cursive;
+	font-size: 80px;
+	padding: 100px 0 0 0;
+	line-height: 100px;
+}
+
+#intro h1 span {
+	color: #cc3300; 
+}
+
+.emphasis {
+	font-size: 150px;
+	background-color: #ffcc66;
+	border: 3px solid #1f202b;
+	position: relative;
+	top: 70px;
+	left: 60px;
+}
+ 
+/***** PORTFOLIO *****/
+
+#portfolio .port  {
+	position: relative;
+	left: 90px;
+}
+
+.half-width img {
+	border: 1px solid;
+	color: #1f202b;
+}
+h2 {
+	font-family: 'Audiowide', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: #3333ff;
+}
+
+.site-desc {
+	height: 350px;
+	width: 550px;
+	padding: 10px; 
+}
+
+.site-desc h3 {
+	font-family: 'Audiowide', cursive;
+	font-size: 40px;
+}
+
+.site-desc a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.site-desc p {
+	font-size: 25px;
+}
+
+/***** ABOUT *****/
+
+#about {
+	height: 600px;
+	background: url('../img/wallofboomboxes.png');
+	background-color: #664400;
+}
+
+#about p {
+	font-size: 36px;
+}
+
+/***** CONNECT *****/
+
+li {
+	display: inline-block;
+	margin-left: 35px;
+}
+
+#contact h3 {
+	font-family: 'Audiowide', cursive;
+	font-size: 35px;
+	padding-left: 133px;
+}
+#contact p {
+	padding-left: 135px;
+	font-size: 20px;
+}
+
+#contact .third-width a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/***** FOOTER *****/
+
+footer {
+	text-align: center;
+}

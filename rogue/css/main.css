@@ -1,0 +1,130 @@
+/***** BASE STYLES *****/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+body {
+	font-family: 'Montserrat', helvetica, arial, sans-serif;
+	color: #383838;
+}
+h1 {
+	font-size: 30px;
+	padding: 0 0 0 30px;
+}
+h2 {
+	font-size: 24px;
+	padding: 30px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 12px;
+}
+p {
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 30px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width { 
+    width: 600px;
+    float: left;
+}
+.third-width {
+	width: 375px;
+	float: left;
+	height: 200px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 50px;
+}
+header h1 {
+	
+	font-family: 'Montserrat', sans-serif;
+	color: #383838;
+	font-size: 50px;
+}
+header h1 span {
+	color: #77a466;
+}
+nav {
+	color: #77a466;
+	padding: 40px 0 0 130px;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	font-family: 'Montserrat, sans-serif';
+	font-size: 15px;
+	text-decoration: none;
+	color: #77a466;
+}
+img {
+	padding: 0 0 0 30px;
+}
+
+/***** ABOUT *****/
+
+#about h2 {
+	color: #77a466;
+}
+
+/***** INFO *****/
+
+.third-width h3 {
+	padding: 0 0 20px 30px;
+}
+
+
+#reviews {
+	width: 398px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+#specials li {
+	list-style: none;
+	font-size: 16px;
+	color: #77a466;
+	line-height: 28px;
+}
+#contact p {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0 150px 10px 30px;
+}
+
+footer {
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	height: 50px;
+}
+
+footer h2 {
+	color: #77a466;
+}
+footer h2 span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+} 
+
+
+
+
+ 
